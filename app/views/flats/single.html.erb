@@ -1,0 +1,8 @@
+<h1><%= @flat['name'] %></h1>
+<!-- <h2>Price: <%#= "#{@flat['price']} #{@flat['priceCurrency']}" %> </h2> -->
+<h2>Price: <%= @flat['price'] %> <%= @flat['priceCurrency'] %> </h2>
+<img src="<%= @flat['imageUrl'] %>" height=200>
+
+<p>
+  <%= link_to "List Page", list_path %>
+</p>
